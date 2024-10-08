@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>6. HTML: Create input forms</title>
+    </head>
+    <body>
+        <h1>Chapter 6. HTML:Create Forms</h1>
+        <h2>Forms</h2>
+        <h3>1. Text Input Forms</h3>
+        <form>
+            <input type="text" placeholder="username" name="username">
+            <input type="email" placeholder="email" name="email">
+            <textarea placeholder="comment" name="comment"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <h3>2. Radio Buttons and Check Boxes</h3>
+        <form>
+            <h3>Radio button</h3>
+            <input type="radio" name="color" value="black">Black
+            <input type="radio" name="color" value="white" checked>White
+            <h3>Checkbox</h3>
+            <input type="checkbox"name="color" value="black">Black
+            <input type="checkbox" name="color" value="white" checked>White
+        </form>
+        <h3>3. Select Box</h3>
+        <form>
+            <h4>Select Box: Single selection</h4>
+            <select name="days-of-week">
+                <option value="mon">Monday</option>
+                <option value="tue">Tuesday</option>
+                <option value="wed">Wednesday</option>
+                <option value="thu">Thursday</option>
+                <option value="fri">Friday</option>
+                <option value="sat">Saturday</option>
+                <option value="sun">Sunday</option>
+            </select>
+        </form>
+        <form>
+            <h4>Select Box: Multiple selection</h4>
+            <select name="days-of-week" multiple>
+                <option value="mon">Monday</option>
+                <option value="tue">Tuesday</option>
+                <option value="wed">Wednesday</option>
+                <option value="thu">Thursday</option>
+                <option value="fri">Friday</option>
+                <option value="sat">Saturday</option>
+                <option value="sun">Sunday</option>
+            </select>
+        </form>
+        <form>
+            <h4>Select Box: Grouping</h4>
+            <select name="days-of-week">
+                <optgroup label="Weekday">
+                    <option value="mon">Monday</option>
+                    <option value="tue">Tuesday</option>
+                    <option value="wed">Wednesday</option>
+                    <option value="thu">Thursday</option>
+                    <option value="fri">Friday</option>
+                </optgroup>
+                <optgroup label="Weekend">
+                    <option value="sat">Saturday</option>
+                    <option value="sun">Sunday</option>
+                </optgroup>
+            </select>
+        </form>
+        <h3>4. Add Labels</h3>
+        <form>
+            <h4>Radio button</h4>
+            <input id="black" type="radio" name="color" value="black">
+            <label for="black">Black</label>
+            <input id="white" type="radio" name="color" value="white" checked>
+            <label for="white">White</label>
+            <h3>Checkbox</h3>
+            <input id="black-check" type="checkbox"name="color" value="black">
+            <label for="black-check">Black</label>
+            <input id="white-check" type="checkbox" name="color" value="white" checked>
+            <label for="white-check">White</label>
+        </form>
+        <h3>5. Auto Complete and Disabled</h3>
+        <form>
+            <input type="text" placeholder="username" name="username" autocomplete="off">
+            <input type="email" placeholder="email" name="email" autocomplete="off">
+            <textarea placeholder="comment" name="comment" disabled></textarea>
+            <button type="submit" disabled>Send</button>
+        </form>
+    </body>
+</html>
