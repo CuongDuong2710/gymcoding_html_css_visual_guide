@@ -1,3 +1,27 @@
 body {
-    background-color: azure;
+    background-color: white;
+    color: #196060;
+}
+
+.first-class {
+    color: red;
+    font-weight: bold;
+}
+
+.second-class {
+    background-color: aqua;
+}
+
+#first-id {
+    color: green;
+}
+
+header span {
+    background-color: lightcoral;
+    color: white
+}
+
+section .primary span {
+    background-color: lightblue;
+    color: white;
 }
