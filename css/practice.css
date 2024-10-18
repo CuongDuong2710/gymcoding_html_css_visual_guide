@@ -25,3 +25,22 @@ section .primary span {
     background-color: lightblue;
     color: white;
 }
+
+/* Chapter 14. CSS: Layout - Key Concept */
+.inline-element {
+    display: inline;
+    border: 1px dotted #26BCCE;
+    background-color: #23ACBB;
+}
+
+.block-element {
+    display: block;
+    border: 1px dotted #26BCCE;
+    background-color: #B3EBEF;
+}
+
+.inline-block-element {
+    display: inline-block;
+    border: 1px dotted #26BCCE;
+    background-color: #55D0DC;
+}
