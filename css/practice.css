@@ -105,3 +105,33 @@ section .primary span {
     height: 100px;
     width: 50px;
 }
+
+.flex-item-to-shrink-1 {
+    padding: 5px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100px;
+    width: 120px;
+}
+
+.flex-item-to-shrink-2 {
+    padding: 5px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100px;
+    width: 120px;
+}
+
+.flex-item-to-shrink-3 {
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100px;
+    width: 120px;
+}
