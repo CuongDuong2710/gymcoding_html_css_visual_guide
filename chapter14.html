@@ -93,6 +93,29 @@
             <dvi class="inline-block-element" style="margin-left: auto;">Inline-Block</dvi>
         </div>
 
+        <h3>Nesting</h3>
+        <h4>Inline Element</h4>
+        <div class="inline-element" style="width: 300px; height: 200px;">
+            Inline Parent
+            <div class="inline-element" style="width: 150px; height: 50px; margin: 10px;">Inline Child</div>
+            <div class="block-element" style="width: 150px; height: 50px; margin: 10px;">Block Child</div>
+            <div class="inline-block-element" style="width: 150px; height: 50px; margin: 10px;">Inline-Block Child</div>
+        </div>
+        <br>
+        <h4>Block Element</h4>
+        <div class="block-element" style="width: 300px; height: 200px; padding: 10px;">
+            Block Parent<br>
+            <div class="inline-element" style="width: 150px; height: 50px; margin: 10px;">Inline Child</div>
+            <div class="block-element" style="width: 150px; height: 50px; margin: 10px;">Block Child</div>
+            <div class="inline-block-element" style="width: 150px; height: 50px; margin: 10px;">Inline-Block Child</div>
+        </div>
+        <br>
+        <div class="inline-block-element" style="width: 300px; height: 200px; padding: 10px;">
+            Inline-Block Parent<br>
+            <div class="inline-element" style="width: 150px; height: 50px; margin: 10px;">Inline Child</div>
+            <div class="block-element" style="width: 150px; height: 50px; margin: 10px;">Block Child</div>
+            <div class="inline-block-element" style="width: 150px; height: 50px; margin: 10px;">Inline-Block Child</div>
+        </div>
     </body>
 
 </html>
