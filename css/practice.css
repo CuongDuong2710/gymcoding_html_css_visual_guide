@@ -67,3 +67,41 @@ section .primary span {
     box-sizing: border-box;
     border-radius: 5px;
 }
+
+.flex-container-no-padding {
+    border: solid #23ACBB;
+    display: flex;
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+}
+
+.flex-item-to-grow-1 {
+    padding: 5px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100px;
+    width: 50px;
+}
+
+.flex-item-to-grow-2 {
+    padding: 5px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100px;
+    width: 50px;
+}
+
+.flex-item-to-grow-3 {
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100px;
+    width: 50px;
+}

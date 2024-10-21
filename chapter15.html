@@ -345,6 +345,43 @@
             <div class="flex-item" style="align-self: flex-start; align-self: baseline;">2</div>
             <div class="flex-item">3</div>
         </div>
+
+        <h2>flex-grow</h2>
+        <h3>Original Flex Item Size</h3>
+        <div class="flex-container-no-padding">
+            <div class="flex-item-to-grow-1"></div>
+            <div class="flex-item-to-grow-2"></div>
+            <div class="flex-item-to-grow-3"></div>
+        </div>
+
+        <h3>Grow Evenly</h3>
+        <div class="flex-container-no-padding">
+            <div class="flex-item-to-grow-1" style="flex-grow: 1;">flex-grow: 1</div>
+            <div class="flex-item-to-grow-2" style="flex-grow: 1;">flex-grow: 1</div>
+            <div class="flex-item-to-grow-3" style="flex-grow: 1;">flex-grow: 1</div>
+        </div>
+
+        <h3>Grow Red and Blue with the Same Ratio</h3>
+        <div class="flex-container-no-padding">
+            <div class="flex-item-to-grow-1" style="flex-grow:0;">flex-grow: 0</div>
+            <div class="flex-item-to-grow-2" style="flex-grow: 1;">flex-grow: 1</div>
+            <div class="flex-item-to-grow-3" style="flex-grow: 1;">flex-grow: 1</div>
+        </div>
+
+        <h3>Grow Red and Blue with 1:2 Ratio</h3>
+        <div class="flex-container-no-padding">
+            <div class="flex-item-to-grow-1" style="flex-grow: 0;">flex-grow: 0</div>
+            <div class="flex-item-to-grow-2" style="flex-grow: 1;">flex-grow: 1</div>
+            <div class="flex-item-to-grow-3" style="flex-grow: 2;">flex-grow: 2</div>
+        </div>
+
+        <h3>Grow Blue Only</h3>
+        <div class="flex-container-no-padding"">
+            <div class="flex-item-to-grow-1" style="flex-grow: 0;">flex-grow: 0</div>
+            <div class="flex-item-to-grow-2" style="flex-grow: 0;">flex-grow: 0</div>
+            <div class="flex-item-to-grow-3" style="flex-grow: 1;">flex-grow: 1</div>
+        </div>
+
     </body>
 
 </html>
