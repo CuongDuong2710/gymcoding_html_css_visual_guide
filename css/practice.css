@@ -44,3 +44,10 @@ section .primary span {
     border: 1px dotted #26BCCE;
     background-color: #55D0DC;
 }
+
+.container {
+    border: solid #23ACBB;
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+}
