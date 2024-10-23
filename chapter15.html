@@ -376,7 +376,7 @@
         </div>
 
         <h3>Grow Blue Only</h3>
-        <div class="flex-container-no-padding"">
+        <div class="flex-container-no-padding">
             <div class="flex-item-to-grow-1" style="flex-grow: 0;">flex-grow: 0</div>
             <div class="flex-item-to-grow-2" style="flex-grow: 0;">flex-grow: 0</div>
             <div class="flex-item-to-grow-3" style="flex-grow: 1;">flex-grow: 1</div>
@@ -416,6 +416,35 @@
             <div class="flex-item-to-shrink-1" style="flex-shrink: 0;">flex-grow: 0</div>
             <div class="flex-item-to-shrink-2" style="flex-shrink: 0;">flex-grow: 0</div>
             <div class="flex-item-to-shrink-3" style="flex-shrink: 1;">flex-grow: 1</div>
+        </div>
+
+        <h2>flex-basis</h2>
+        <h3>Original Flex Item Size - Horizontal Layout</h3>
+        <div class="flex-container-no-padding">
+            <div class="flex-item-to-grow-1"></div>
+            <div class="flex-item-to-grow-2"></div>
+            <div class="flex-item-to-grow-3"></div>
+        </div>
+
+        <h3> Horizontal Layout with flex-basis</h3>
+        <div class="flex-container-no-padding">
+            <div class="flex-item-to-grow-1" style="flex-basis: 25%;">flex-basis: 25%</div>
+            <div class="flex-item-to-grow-2" style="flex-basis: 25%;">flex-basis: 25%</div>
+            <div class="flex-item-to-grow-3" style="flex-basis: 50%;">flex-basis: 50%</div>
+        </div>
+
+        <h3>Original Flex Item Size - Vertical Layout</h3>
+        <div class="flex-container-no-padding" style="flex-direction: column; height: 500px;">
+            <div class="flex-item-to-grow-1"></div>
+            <div class="flex-item-to-grow-2"></div>
+            <div class="flex-item-to-grow-3"></div>
+        </div>
+
+        <h3>Vertical Layout with flex-basis</h3>
+        <div class="flex-container-no-padding" style="flex-direction: column; height: 500px;">
+            <div class="flex-item-to-grow-1" style="flex-basis: 25%;">flex-basis: 25%</div>
+            <div class="flex-item-to-grow-2" style="flex-basis: 25%;">flex-basis: 25%</div>
+            <div class="flex-item-to-grow-3" style="flex-basis: 50%;">flex-basis: 50%</div>
         </div>
 
     </body>
