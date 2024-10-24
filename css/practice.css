@@ -149,3 +149,19 @@ section .primary span {
     width: 50px;
     height: 50px;
 }
+
+.flex-container-main {
+    display: flex;
+    border: solid blue 2px;
+    background-color: lightblue;
+    padding: 3px;
+    margin: 10px;
+    width: 300px;
+    height: 150px;
+}
+
+.flex-container-nested {
+    display: flex;
+    margin: 5px;
+    flex-basis: 50%;
+}

@@ -550,6 +550,46 @@
             <div class="flex-item">3</div>
         </div>
 
+        <h2>Nested Flex Box</h2>
+        <h3>Layout 1</h3>
+        <div class="flex-container-main">
+            <div class="flex-container-nested" style="border: solid 2px green; background-color: lightcyan;">
+                <div class="flex-container-nested" style="border: solid 2px orange; background-color: lightyellow;"></div>
+                <div class="flex-container-nested" style="border: solid 2px orange; background-color: lightyellow;"></div>
+            </div>
+            <div class="flex-container-nested" style="border: solid 2px green; background-color: lightcyan;"></div>
+        </div>
+
+        <h3>Layout 1 with Content in the Center</h3>
+        <div class="flex-container-main">
+            <div class="flex-container-nested" style="border: solid 2px green; background-color: lightcyan;">
+                <div class="flex-container-nested" style="border: solid 2px orange; background-color: lightyellow; align-items: center; justify-content: center;">Content</div>
+                <div class="flex-container-nested" style="border: solid 2px orange; background-color: lightyellow; align-items: center; justify-content: center;">Content</div>
+            </div>
+            <div class="flex-container-nested" style="border: solid 2px green; background-color: lightcyan;"></div>
+        </div>
+
+        <h3>Layout 2</h3>
+        <div class="flex-container-main">
+            <div class="flex-container-nested" style="flex-direction:column; border: solid 2px green; background-color: lightcyan;">
+                <div class="flex-container-nested" style="border: solid 2px orange; background-color: lightyellow; align-items: center; justify-content: center;"></div>
+                <div class="flex-container-nested" style="border: solid 2px orange; background-color: lightyellow; align-items: center; justify-content: center;"></div>
+            </div>
+            <div class="flex-container-nested" style="border: solid 2px green; background-color: lightcyan;"></div>
+        </div>
+
+        <h3>Layout 3</h3>
+        <div class="flex-container-main">
+            <div class="flex-container-nested" style="flex-direction:column; border: solid 2px green; background-color: lightcyan;">
+                <div class="flex-container-nested" style="border: solid 2px orange; background-color: lightyellow; align-items: center; justify-content: center;">
+                    <div class="flex-container-nested" style="border: solid 2px lightcoral; background-color: pink;"></div>
+                    <div class="flex-container-nested" style="border: solid 2px lightcoral; background-color: pink;"></div>
+                </div>
+                <div class="flex-container-nested" style="border: solid 2px orange; background-color: lightyellow; align-items: center; justify-content: center;"></div>
+            </div>
+            <div class="flex-container-nested" style="border: solid 2px green; background-color: lightcyan;"></div>
+        </div>
+
     </body>
 
 </html>
