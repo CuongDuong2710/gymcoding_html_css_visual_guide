@@ -80,5 +80,23 @@
         <div class="size-object" style="width: 300px; padding: 30px;">
             <div class="size-child-object" style="height: 30px; margin: 30px; border: 1px dotted;">height: 30px; margin: 30px</div>
         </div>
+
+        <h2>Box sizing</h2>
+        <h3>Box Examples</h3>
+        <div class="box-sizing-parent" style="width: 100px; height: auto; padding: 5px; margin: 5px;">div Parent</div>
+        <div class="box-sizing-child" style="width: 100px; height: auto; padding: 5px; margin: 5px;">div Child</div>
+
+        <h3>Original Box Sizing</h3>
+        <div class="box-sizing-parent">
+            <div class="box-sizing-child"></div>
+        </div>
+        <h3>Content Box</h3>
+        <div class="box-sizing-parent">
+            <div class="box-sizing-child" style="box-sizing: content-box;"></div>
+        </div>
+        <h3>Border Box</h3>
+        <div class="box-sizing-parent">
+            <div class="box-sizing-child" style="box-sizing: border-box;"></div>
+        </div>
     </body>
 </html>
