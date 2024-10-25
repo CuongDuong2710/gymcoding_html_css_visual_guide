@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/practice.css">
+        <title>10. CSS: Sizing and Spacing</title>
+    </head>
+    <body>
+        <h1>Chapter 10. CSS: Sizing and Spacing</h1>
+        <h2>Width</h2>
+        <div class="size-object">div element: Original</div>
+        <div class="size-object" style="width: 300px;">div element: Width 300px</div>
+        <p class="size-object">p element: Original</p>
+        <p class="size-object" style="width: 300px;">p element: Width 300px</p>
+        <a class="size-object">a element: Original</a>
+        <a class="size-object" style="width: 300px;">a element: Width 300px</a>
+        <span class="size-object">span element: Original</span>
+        <span class="size-object" style="width: 300px;">span element: Width 300px</span>
+
+        <h2>Height</h2>
+        <div class="size-object">div element: Original</div>
+        <div class="size-object" style="height: 100px;">div element: Height 100px</div>
+        <p class="size-object">p element: Original</p>
+        <p class="size-object" style="height: 100px;">p element: Height 100px</p>
+        <a class="size-object">a element: Original</a>
+        <a class="size-object" style="height: 100px;">a element: Height 100px</a>
+        <span class="size-object">span element: Original</span>
+        <span class="size-object" style="height: 100px;">span element: Height 100px</span>
+
+        <h2>Padding</h2>
+        <div class="size-object">div element: Original</div>
+        <div class="size-object" style="padding: 20px;">div element: Padding 20px</div>
+        <p class="size-object">p element: Original</p>
+        <p class="size-object" style="padding: 20px;">p element: Padding 20px</p>
+        <a class="size-object">a element: Original</a>
+        <a class="size-object" style="padding: 10px;">a element: Padding 10px</a>
+        <span class="size-object">span element: Original</span>
+        <span class="size-object" style="padding: 10px;">span element: Padding 10px</span>
+
+        <h2>Padding: nesting</h2>
+        <div class="size-object" style="padding: 10px;">
+            <div class="size-child-object">div child element</div>
+            <div class="size-child-object">div child element</div>
+        </div>
+
+        <h2>Padding: multiple values</h2>
+        <div class="size-object" style="width: 200px;">
+            <div class="size-child-object">Before padding</div>
+        </div>
+        <div class="size-object" style="width: 200px; padding: 10px;">
+            <div class="size-child-object">Padding 10px</div>
+        </div>
+        <div class="size-object" style="width: 200px; padding: 5px 10px;">
+            <div class="size-child-object">Padding 5px 10px</div>
+        </div>
+        <div class="size-object" style="width: 200px; padding: 5px 10px 1px;">
+            <div class="size-child-object">Padding 5px 10px 1px</div>
+        </div>
+        <div class="size-object" style="width: 200px; padding: 5px 10px 1px 2px;">
+            <div class="size-child-object">Padding 5px 10px 1px 2px</div>
+        </div>
+
+        <h2>Margin</h2>
+        <div class="size-object" style="margin: initial;">div element: Original</div>
+        <div class="size-object" style="margin: 30px;">div element: margin 30px</div>
+        <p class="size-object" style="margin: initial;">p element: Original</p>
+        <p class="size-object" style="margin: 30px;">p element: margin 30px</p>
+        <a class="size-object" style="margin: initial;">a element: Original</a>
+        <a class="size-object" style="margin: 30px;">a element: margin 30px</a>
+        <span class="size-object" style="margin: initial;">span element: Original</span>
+        <span class="size-object" style="margin: 30px;">span element: margin 30px</span>
+
+        <h2>Margin: Overlap</h2>
+        <div class="size-object" style="height: 30px; margin: 30px;">height: 30px; margin: 30px</div>
+        <div class="size-object" style="height: 30px; margin: 10px;">height: 30px; margin: 10px</div>
+        <div class="size-object" style="height: 30px; margin: 30px;">height: 30px; margin: 30px</div><hr>
+
+        <h2>Margin: Child Margin and Parent Padding</h2>
+        <div class="size-object" style="width: 300px; padding: 30px;">
+            <div class="size-child-object" style="height: 30px; margin: 30px; border: 1px dotted;">height: 30px; margin: 30px</div>
+        </div>
+    </body>
+</html>

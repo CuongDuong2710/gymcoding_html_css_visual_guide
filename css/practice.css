@@ -52,6 +52,17 @@ section .primary span {
     margin: 10px;
 }
 
+.size-object {
+    background-color: #55D0DC;
+    margin: 10px;
+    border: 1px dotted white;
+}
+
+.size-child-object {
+    background-color: #1E838A;
+    color: white;
+}
+
 .flex-container {
     border: solid #23ACBB;
     width: 300px;
